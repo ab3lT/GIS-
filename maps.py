@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Addis Abeba Inistitute of Technology GIS Assignemnt ")
 st.title("Abel Tadesse ATE 1359 11 ")
-point = st.selectbox("Select Map Point ", ('Meskel Square', 'Addis Abeba Stadium', 'Mexico','Elilly Hotel','hyatt Regency', 'Gihon Hotel', 'Dembel City Center','Flamingo', 'Ahadu Bank Main Branch'))
+point = st.selectbox("Select Map Point ", ('Meskel Square', 'Addis Abeba Stadium', 'Mexico','Elilly Hotel','Hyatt Regency', 'Gihon Hotel', 'Dembel City Center','Flamingo', 'Ahadu Bank Main Branch'))
 if point == 'Meskel Square':
     coordinate = pd.DataFrame(
         {
